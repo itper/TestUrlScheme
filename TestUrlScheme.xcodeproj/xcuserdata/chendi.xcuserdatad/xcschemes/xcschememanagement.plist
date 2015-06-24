@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>OpenOtherApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>TestUrlScheme.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,21 @@
 			<true/>
 		</dict>
 		<key>543A4F7E1B3A428D00C065D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>549F78501B3A489E00CA874A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>549F78631B3A489E00CA874A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>549F786E1B3A489E00CA874A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
