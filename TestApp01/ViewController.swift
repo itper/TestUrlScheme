@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  TestUrlScheme
+//  TestApp01
 //
 //  Created by chendi on 15/6/24.
-//  Copyright (c) 2015年 liupeng. All rights reserved.
+//  Copyright © 2015年 liupeng. All rights reserved.
 //
 
 import UIKit

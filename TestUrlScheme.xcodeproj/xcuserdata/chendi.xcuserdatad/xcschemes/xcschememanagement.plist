@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>TestApp01.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>TestExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>TestUrlScheme.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -38,6 +48,26 @@
 			<true/>
 		</dict>
 		<key>549F786E1B3A489E00CA874A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>549F78821B3A655800CA874A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>549F78951B3A655800CA874A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>549F78A01B3A655800CA874A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>549F78B41B3AA1C100CA874A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "543A4F691B3A428D00C065D5"
-               BuildableName = "TestUrlScheme.app"
-               BlueprintName = "TestUrlScheme"
-               ReferencedContainer = "container:TestUrlScheme.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "543A4F7E1B3A428D00C065D5"
-               BuildableName = "TestUrlSchemeTests.xctest"
-               BlueprintName = "TestUrlSchemeTests"
+               BlueprintIdentifier = "549F78821B3A655800CA874A"
+               BuildableName = "TestApp01.app"
+               BlueprintName = "TestApp01"
                ReferencedContainer = "container:TestUrlScheme.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +32,19 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "543A4F7E1B3A428D00C065D5"
-               BuildableName = "TestUrlSchemeTests.xctest"
-               BlueprintName = "TestUrlSchemeTests"
+               BlueprintIdentifier = "549F78951B3A655800CA874A"
+               BuildableName = "TestApp01Tests.xctest"
+               BlueprintName = "TestApp01Tests"
+               ReferencedContainer = "container:TestUrlScheme.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "549F78A01B3A655800CA874A"
+               BuildableName = "TestApp01UITests.xctest"
+               BlueprintName = "TestApp01UITests"
                ReferencedContainer = "container:TestUrlScheme.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +52,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "543A4F691B3A428D00C065D5"
-            BuildableName = "TestUrlScheme.app"
-            BlueprintName = "TestUrlScheme"
+            BlueprintIdentifier = "549F78821B3A655800CA874A"
+            BuildableName = "TestApp01.app"
+            BlueprintName = "TestApp01"
             ReferencedContainer = "container:TestUrlScheme.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -79,9 +75,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "543A4F691B3A428D00C065D5"
-            BuildableName = "TestUrlScheme.app"
-            BlueprintName = "TestUrlScheme"
+            BlueprintIdentifier = "549F78821B3A655800CA874A"
+            BuildableName = "TestApp01.app"
+            BlueprintName = "TestApp01"
             ReferencedContainer = "container:TestUrlScheme.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -98,9 +94,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "543A4F691B3A428D00C065D5"
-            BuildableName = "TestUrlScheme.app"
-            BlueprintName = "TestUrlScheme"
+            BlueprintIdentifier = "549F78821B3A655800CA874A"
+            BuildableName = "TestApp01.app"
+            BlueprintName = "TestApp01"
             ReferencedContainer = "container:TestUrlScheme.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Open Other App View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="OpenOtherAppViewController" customModule="OpenOtherApp" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,8 +16,50 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yq1-IY-p3f">
+                                <rect key="frame" x="70" y="185" width="460" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E18-Pv-qet">
+                                <rect key="frame" x="70" y="265" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="eBn-h1-6m6"/>
+                                    <constraint firstAttribute="width" constant="46" id="jLi-la-TJM"/>
+                                </constraints>
+                                <state key="normal" title="测试"/>
+                                <connections>
+                                    <action selector="testClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k6Y-uV-bap"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXf-FE-va4">
+                                <rect key="frame" x="150" y="265" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="mjg-3f-oaA"/>
+                                </constraints>
+                                <state key="normal" title="打开"/>
+                                <connections>
+                                    <action selector="openClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Hj-lL-ec7"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eXf-FE-va4" firstAttribute="width" secondItem="E18-Pv-qet" secondAttribute="width" id="94W-cM-ved"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Yq1-IY-p3f" secondAttribute="trailing" constant="50" id="9Xl-vI-xUV"/>
+                            <constraint firstItem="E18-Pv-qet" firstAttribute="top" secondItem="Yq1-IY-p3f" secondAttribute="bottom" constant="50" id="9qg-dE-Iut"/>
+                            <constraint firstItem="eXf-FE-va4" firstAttribute="height" secondItem="E18-Pv-qet" secondAttribute="height" id="V3e-it-eBL"/>
+                            <constraint firstItem="Yq1-IY-p3f" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="Xgn-q3-cqG"/>
+                            <constraint firstItem="eXf-FE-va4" firstAttribute="leading" secondItem="E18-Pv-qet" secondAttribute="trailing" constant="50" id="Zc1-sm-DMC"/>
+                            <constraint firstItem="Yq1-IY-p3f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="r6P-T2-cbe"/>
+                            <constraint firstItem="eXf-FE-va4" firstAttribute="bottom" secondItem="E18-Pv-qet" secondAttribute="bottom" id="rtQ-w2-2fg"/>
+                            <constraint firstItem="E18-Pv-qet" firstAttribute="leading" secondItem="Yq1-IY-p3f" secondAttribute="leading" id="wVV-Vp-gVS"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="urlScheme" destination="Yq1-IY-p3f" id="pdP-vI-3dw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
